@@ -5,7 +5,11 @@ Result of a day of learning about LisaOS and ToolKit app development. This is a 
 
 Due to the complexity of converting file formats to/from Lisa, I imagine you will have to manually type this rather than transfer it from a Mac disk using MacCom. LisaEm will let you paste large sections of text as keystrokes, so that makes input pretty easy.
 
-From the Lisa Workshop main prompt, assuming you have the ToolKit SDK installed, run "<TK/Make(SampleTK,41)", where '41' is the ID you want to give the output tool.
+From the Lisa Workshop main prompt, assuming you have the ToolKit SDK installed, run the following, where '41' is the ID you want to give the output tool.
+
+```
+<TK/Make(SampleTK,41)
+```
 
 NOTE
 =============
