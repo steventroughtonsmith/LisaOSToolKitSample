@@ -1,0 +1,1 @@
+PROGRAM M1TK;USES	{ $U UObject}		UObject,		{ $U QuickDraw }	QuickDraw,		{ $U UDraw }		UDraw,		{ $U UABC}			UABC,		{ $U U1SampleTK}	U1TK;CONST	phraseVersion = 1;BEGIN	process := TBoxProcess.CREATE;	process.Commence(phraseVersion);	process.Run;	process.Complete(TRUE);END.
